@@ -1,0 +1,365 @@
+* {
+  margin: 0;
+  /* overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden; */
+
+}
+.loud {
+  background-image: url();
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./IMG_4009.JPG);
+  width: 100%;
+  height: 740px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
+  position: fixed;
+  
+}
+.loader{
+  font-size: 60px;
+  font-weight: bold;
+  margin-left: 40%;
+  margin-top: 20%;
+  position: absolute;
+  letter-spacing: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(227, 227, 184);
+  animation: smokeOut 1s ease-in-out infinite alternate;
+  text-shadow: 0 0 1px yellow;
+}
+.loader:before {
+  content: "Loading";
+}
+/* land.html */
+.page {
+  width: 100%;
+  height: 735px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./IMG_4013.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box {
+  width: 400px;
+  height: 710px;
+  background-image: url(./BJEJ7252.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 2px solid #633003;
+  border-radius: 20px;
+  margin-left: 30px;
+  margin-top: 10px;
+
+
+}
+
+.angle {
+  width: 800px;
+  height: 300px;
+  background-size: cover;
+  position: absolute;
+  margin-left: 580px;
+  margin-top: 320px;
+  border-radius: 20px;
+  border: 3px solid #633003;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  transition: 1s linear;
+}
+.angle div {
+  display: flex;
+  flex-direction: row;
+  gap: 20rem;
+  
+}
+
+.box1 {
+  width: 100%;
+  background-image: url(./connect.jpg);
+  background-size: cover;
+  height: 300px;
+  flex: 0 0 auto;
+  color: white;
+  transition: 1s linear;
+}
+.box2 {
+  width: 100%;
+  background-image: url(./free2.jpg);
+  background-size: cover;
+  height: 300px;
+  flex: 0 0 auto;
+  transition: 1s linear;
+}
+.box3 {
+  width: 100%;
+  background-image: url(./about3.jpg);
+  background-size: cover;
+  height: 300px;
+  flex: 0 0 auto;
+  transition: 1s linear;
+}
+.display {
+  display: flex;
+  flex-direction: row;
+  border-radius: 15px;
+}
+.about {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  margin-left: 1400px;
+  background-color: transparent;
+  border:  2px solid #633003;
+  margin-top: 50px;
+  text-align: center;
+  border: none;
+  color: white;
+  border-radius: 15px;
+  font-weight: 900;
+  
+}
+.about:hover {
+  color: white;
+  border: none;
+  cursor: pointer;
+  background-color: #633003;
+  transition: all 2ms ease-in-out;
+}
+.icons {
+  font-size: 35px;
+  position: absolute;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 8rem;
+  margin-top: 680px;
+  margin-left: 650px;
+}
+.facebook:hover {
+  cursor: pointer;
+  color: blue;
+  transition: 1s ease-in-out;
+  justify-content: center;
+
+  
+}
+.whatsapp:hover {
+  cursor: pointer;
+  color: rgba(2, 246, 128, 0.547);
+  transition: 1s ease-in-out;
+ 
+}
+.instagram:hover {
+  cursor: pointer;
+  color: rgb(128, 0, 85);
+  transition: 1s ease-in-out;
+}
+.telegram:hover {
+  cursor: pointer;
+  color: rgb(7, 159, 214);
+  transition: 1s ease-in-out;
+}
+.envelope:hover {
+  cursor: pointer;
+  color: red;
+  transition: 1s ease-in-out;
+}
+.qualify {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 580px;
+  border-radius: 20px;
+}
+.name {
+  font-size: 40px;
+  font-weight: 900;
+  color: white;
+  position: absolute;
+  margin-left: 650px;
+  margin-top: 40px;
+}
+
+/* about.html */
+.story {
+  width: 90%;
+  height: 650px;
+  background-color: white;
+  border-radius: 20px;
+  margin-left: 5%;
+  margin-top: 42px;
+  border: 2px solid #7F5412;
+}
+.download {
+  position: absolute;
+  margin-top: 550px;
+  margin-left: 45%;
+}
+
+
+/* all key frames and media quries */
+@keyframes marquee {to{text-shadow:-5em 0 #7F5412, 0 0 #7F5412}}
+
+@keyframes smokeOut {
+
+  100% {
+    opacity: 0.08;
+    filter: blur(5px);
+    letter-spacing: 4px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .loud {
+    width: 100%;
+    height: 100%;
+  }
+  .loader {
+    margin-left: 70px;
+    margin-top: 80%;
+  }
+}
+@media screen and (max-width: 800px) {
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./IMG_4013.JPG);
+}
+.page {
+  margin-left: 0px;
+}
+.box {
+  margin-left: 2px;
+  width: 100%;
+  height: 400px;
+  margin-top: 80px;
+  border: none;
+
+}
+.box1 {
+  width: 100%;
+  height: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.box2 {
+  width: 100%;
+  height: 600px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.box3 {
+  width: 100%;
+  height: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.angle {
+  margin-left: 1px;
+  width: 100%;
+  height: 150px;
+  margin-top: 550px;
+  background-size: contain;
+  border: none;
+  border-radius: 0px;
+  /* border: 2px solid white; */
+  
+}
+.icons {
+  /* display: none; */
+  margin-left: 0px;
+  gap: 3rem;
+  margin-top: 710px;
+  font-size: 20px;
+  margin-left: 45px;
+  padding: 10px 0px;
+}
+.about {
+  margin-left: 50%;
+  margin-top: 100px;
+}
+.name {
+  /* display: none; */
+  margin-left: 10%;
+  margin-top: 0px;
+  font-size: 30px;
+  /* margin-left: 50px; */
+}
+
+}
+@media screen and (max-width: 768px) {
+  body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./IMG_4013.JPG);
+    /* background-repeat: no-repeat; */
+    width: 100%;
+    /* background-image: none; */
+  }
+  .page {
+    /* display: none; */
+    background: none;
+    margin-left: 0px;
+    width: 100%;
+
+  }
+  .box {
+    width: 1420px;
+    height: 1500px;
+    position: absolute;
+    border: none;
+    margin-top: 300px;
+    margin-left: 15px;
+  }
+  .angle {
+    width: 1420px;
+    height: 500px;
+    margin-left: 15px;
+    background-size: contain;
+    margin-top: 1900px;
+  }
+  .box1 {
+    height: 700px;
+    background-size: contain;
+  }
+  .box2 {
+    height: 700px;
+    background-size: contain;
+  }
+  .box3 {
+    height: 700px;
+    background-size: contain;
+  }
+  .about {
+    background-color: transparent;
+    position: absolute;
+    font-size: 45px;
+    width: 250px;
+    height: 150px;
+    margin-left: 1000px;
+    transform: translate(0px, 350px
+    );
+    z-index: 1;
+
+  }
+  .icons {
+    font-size: 80px;
+    margin-top: 2370px;
+    margin-left: 0px;
+    padding: 60px 0px;
+    margin-left: 250px;
+    gap: 10rem
+  }
+  .name {
+    font-size: 90px;
+    font-weight: 900;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 40%;
+    /* margin-top: 15%; */
+  }
+  
+}
+@media screen and (max-width: 450px ) {
+  
+}
