@@ -534,7 +534,7 @@ body {
   .icons {
     margin-left: 0px;
     margin-top: 1350px;
-    padding: 20px 0px;
+    gap: 7rem;
     justify-content: space-between;
   }
   .name {
@@ -566,6 +566,7 @@ body {
     flex-direction: column;
     height: 100%;
     background-color: transparent;
+    gap: 5rem;
   }
   .row1 div:nth-child(1) {
     width: 90%;
