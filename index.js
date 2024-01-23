@@ -13,4 +13,11 @@ function slide() {
 
 setInterval(()=> {
     slide();
-}, 4000)
+}, 6000)
+
+function about() {
+   window.location.href = 'about.html';
+}
+function back() {
+   window.location.href = 'land.html';
+}
