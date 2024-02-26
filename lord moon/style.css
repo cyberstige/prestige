@@ -1,0 +1,509 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:cursive;
+    overflow-x: hidden;
+    
+}
+.front-image {
+    background:  url(solar.webp);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(solar.webp);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.head {
+    width: 100%;
+    height: 120px;
+    background-color:transparent;
+    display: flex;
+    gap: 5%;
+    align-items: center;    
+    flex-direction: row;
+    font-weight: 700;
+    position: fixed;
+    z-index: 1;
+    transition: all 0.5s ease-in;
+  
+    
+}
+
+
+.properties {
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    width: 70%;
+    font-weight: 900;
+    color: black;
+    font-family: cursive;
+
+}
+.hover {
+    font-size: 20px
+} 
+.hover:hover  {
+    cursor: pointer;
+    transition: 1ms ease-in-out;
+    color: white;
+}
+.dwn-bar {
+    width: 50px;
+    height: 2px;
+    background-color: white;
+}
+
+
+.list {
+    display: none;
+    
+}
+.menu {
+    display: none;
+}
+.logo {
+    background-image: url(./lordmoon.png);
+    width: 15%;
+    height: 120px;
+    background-size: contain        ;
+    background-repeat: no-repeat;
+    margin-left: 70px;
+}
+
+
+
+.about {
+    position: absolute;
+    padding: 50px 100px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-top: 200px;
+    text-transform: capitalize;
+    line-height: 5rem;
+}
+.about span {
+    color: orange;
+}
+
+.section-2 {
+    width: 100%;
+    border: 2px solid white;
+    margin-top: 5vh;
+    
+}
+.test-icons {
+    width: 20%;
+}
+.test-icons h1 {
+    text-align: center;
+    display: flex;
+    
+}
+.test-icons2 {
+    text-align: center;
+}
+.tracks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15rem;
+    margin-top: 10vh;
+}
+.note {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.note span {
+    color: orange;
+}
+.service {
+    margin-top: 10vh;
+    width: 100%;
+    display: flex;
+    
+}
+.write {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+}
+.write button {
+    background-color: transparent;
+    border: 2px solid orange;
+    height: 40px;
+    border-radius: 15px;
+    margin-top: 30px;
+    color: orange;
+    font-size: 15px;
+
+}
+.write button:hover {
+    background-color: orange;
+    transition: 1ms ease-in-out;
+    color: white;
+}
+.section-3 {
+    width: 100%;
+}
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+    margin-top: 10vh;
+}
+.product-1 {
+    text-align: center;
+}
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 5vh;
+}
+.title span {
+    color: orange;
+} 
+.all-product {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 8vh;
+}
+.all-product button {
+    height: 40px;
+    border-radius: 15px;
+    background-color: transparent;
+    border: 2px solid orange;
+    color: orange;
+
+}
+.all-product button:hover {
+    background-color: orange;
+    transition: 1ms ease-in-out;
+    color: white;
+}
+
+.section-4 {
+    width: 100%;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+.contact {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(sunlight\ \(1\).webp);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 35px;
+    font-weight: 900;
+    text-transform: capitalize;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.contact span {
+    color: white;
+}
+.contact h1 {
+    font-size: 25px;
+}
+.text {
+    padding: 20px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    
+
+}
+text span {
+    color: #DE5C04;
+}
+.class {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 10rem;
+}
+.class button {
+    width: 100px;
+}
+.learn button {
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    border: 2px solid orange;
+    border-radius: 10px ;
+    text-transform: capitalize;
+}
+.hide1 {
+    opacity: 0;
+    transition: all 1s linear;
+}
+ .hide2 {
+    opacity: 0;
+    transition: all 1s linear;
+} 
+.section-5 {
+    width: 100%;
+    height: 20vh;
+    background-color: #2A2929;
+    background-image: url(./redo.png);
+    background-size: contain;
+}
+.address {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    
+}
+.address-1 {
+    width: 50%;
+    text-transform: capitalize;
+    color: white;
+    margin-left: 30px;
+}
+.address-2 {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.address-2 a {
+    color: white;
+}
+
+
+/* all media queries */
+
+
+
+
+  @media screen and (max-width: 1024px) {
+
+  }             
+
+@media screen and (max-width: 768px) {
+    .head {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 130px;
+        
+        
+    } 
+    .properties {
+        display: none;
+    }
+    .test-icons {
+        width: 100%;
+    }
+     .list {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        font-size: 50px;
+        margin-right: 50px;
+     }
+     .menu {
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0.9;
+        padding: 100px 10px;
+        font-size: 35px;
+        display: none;
+        text-transform: capitalize;
+        align-items: center;
+        
+     }
+     .menu-text {
+        position: absolute;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        opacity: 1;
+        font-size: 30px;
+        
+    } 
+    .menu-text:hover {
+        color: orange;
+    }
+     .close {
+        display: none;
+        font-size: 40px;
+        color: white;
+        margin-left: 78%;
+     }
+    .logo {
+        background-size: contain;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+        margin-left: 50px;
+    }
+    .front-image {
+        width: 100%;
+        height: 350px;
+        background-size: cover;
+        text-align: center;
+        justify-content: center;                           
+        
+    }
+    .about {
+        font-size: 15px ;
+        line-height: 3rem;
+        margin-top: 100px;
+    }
+    .note {
+        font-size: 20px;
+    }
+    .test-icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .tracks {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .write {
+        text-align: center;
+    }
+    .products {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .image {
+        display: none;
+    }
+    .text {
+        align-items: center;
+        justify-content: center;
+    }
+    .address-2 {
+        gap: 4.5rem;
+    }
+    
+    .contact {
+        height: auto;
+        background-size: cover;
+    }
+    
+    .section-5 {
+        height: auto;
+    }
+
+}
+
+
+
+@media screen and (max-width: 450px) {
+  .head {
+    height: 110px;
+    align-items: center;
+    
+  }
+  .logo {
+    background-size: contain;
+    width: 40%;
+    margin-left: 15px;
+  }
+  .list {
+    font-size: 30px;
+    margin-bottom:  15px;
+    margin-right: 15px;
+  }
+.about {
+    font-size: 15px;
+    padding: 0px 10px;
+    font-size: 10px;
+}
+
+  
+  .section-2 {
+    font-size: 15px;
+    padding: 0;
+  }
+  .note {
+    font-size: 15px;
+  }
+  .write {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .section-3 {
+  }
+  .title h1 {
+    font-size: 30px;
+  }
+  .section-4 {
+  } 
+  .text h1 {
+    font-size: 15px;
+  }
+  .text  {
+    font-size: 25px;
+    gap: 0;
+  }
+  
+
+  .section-5 {
+  }
+  .address {
+    font-size: 12px;
+  }
+  .address-1 {
+    width: 60%;
+    justify-content: center;
+    gap: 0;
+    margin-left: 15px;
+  }
+  .address-2 {
+    width: 30%;
+    font-size: 15px;
+    gap: 1rem;
+}
+.menu-text{
+    font-size: 20px;
+}
+.close {
+    font-size: 25px;
+}
+}
