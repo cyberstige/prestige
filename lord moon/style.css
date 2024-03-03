@@ -1,0 +1,2255 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:cursive;
+    overflow-x: hidden;
+    
+}
+.loading {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+   background-color: orange;
+}
+.loader {
+    font-size: 48px;
+    font-weight: 600;
+    display: inline-block;
+    letter-spacing: 2px;
+    font-family: cursive;
+    color: white;
+    box-sizing: border-box;
+    animation: spotlight 2s linear infinite alternate;
+  }
+  
+  @keyframes spotlight {
+    0% , 20% {
+      opacity: 1;
+      letter-spacing: 2px;
+     }
+   80% , 100% {
+      opacity: 0;
+      letter-spacing: 32px;
+     }
+  }
+.front-image {
+    background:  url(solar.webp);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(solar.webp);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.head {
+    width: 100%;
+    height: 120px;
+    background-color:transparent;
+    display: flex;
+    gap: 5%;
+    align-items: center;    
+    flex-direction: row;
+    font-weight: 700;
+    position: fixed;
+    z-index: 1;
+    transition: all 0.5s ease-in;
+  
+    
+}
+
+
+.properties {
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    width: 70%;
+    font-weight: 900;
+    color: black;
+    font-family: cursive;
+
+}
+.hover {
+    font-size: 20px;
+    
+} 
+.hover:hover  {
+    cursor: pointer;
+    transition: 1ms ease-in-out;
+    color: white;
+}
+.dwn-bar {
+    height: 2px;
+    background-color: white;
+    border-radius: 2px ;
+}
+.dwn-bar-1 {
+    height: 2px;
+    background-color: white;
+    border-radius: 2px ;
+}
+.dwn-bar-2 {
+    height: 2px;
+    background-color: white;
+    border-radius: 2px ;
+}
+.dwn-bar-3 {
+    height: 2px;
+    background-color: white;
+    border-radius: 2px ;
+}
+.dwn-bar-4 {
+    height: 2px;
+    background-color: white;
+    border-radius: 2px ;
+}
+
+
+.list {
+    display: none;
+    
+}
+.menu {
+    display: none;
+}
+.logo {
+    background-image: url(./lordmoon.png);
+    width: 15%;
+    height: 120px;
+    background-size: contain        ;
+    background-repeat: no-repeat;
+    margin-left: 70px;
+}
+
+
+
+.about {
+    position: absolute;
+    padding: 50px 80px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-top: 200px;
+    text-transform: capitalize;
+    line-height: 5rem;
+}
+.about span {
+    color: orange;
+}
+
+.section-2 {
+    width: 100%;
+    margin-top: 5vh;
+    
+}
+
+.test-icons2 {
+    text-align: center;
+}
+.tracks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15rem;
+    margin-top: 10vh;
+}
+.note {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.note span {
+    color: orange;
+}
+.service {
+    margin-top: 10vh;
+    width: 100%;
+    display: flex;
+    
+}
+.write {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+}
+.write button {
+    background-color: transparent;
+    border: 2px solid orange;
+    height: 40px;
+    border-radius: 15px;
+    margin-top: 30px;
+    color: orange;
+    font-size: 15px;
+
+}
+.write button:hover {
+    background-color: orange;
+    transition: 1ms ease-in-out;
+    color: white;
+}
+.section-3 {
+    width: 100%;
+}
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+    margin-top: 10vh;
+}
+.product-1 {
+    text-align: center;
+}
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 5vh;
+}
+.title span {
+    color: orange;
+} 
+.all-product {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 8vh;
+}
+.all-product button {
+    height: 40px;
+    border-radius: 15px;
+    background-color: transparent;
+    border: 2px solid orange;
+    color: orange;
+
+}
+.all-product button:hover {
+    background-color: orange;
+    transition: 1ms ease-in-out;
+    color: white;
+}
+
+.section-4 {
+    width: 100%;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+.contact {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(sunlight\ \(1\).webp);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 35px;
+    font-weight: 900;
+    text-transform: capitalize;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.contact span {
+    color: white;
+}
+.contact h1 {
+    font-size: 25px;
+}
+.text {
+    padding: 20px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    
+
+}
+text span {
+    color: #DE5C04;
+}
+.class {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 10rem;
+}
+.class button {
+    width: 100px;
+}
+.learn button {
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    border: 2px solid orange;
+    border-radius: 10px ;
+    text-transform: capitalize;
+}
+.hide1 {
+    opacity: 0;
+    transition: all 1s linear;
+}
+ .hide2 {
+    opacity: 0;
+    transition: all 1s linear;
+} 
+.section-5 {
+    width: 100%;
+    /* height: 20vh; */
+    height: auto;
+    background-color: #2A2929;
+    background-image: url(./redo.png);
+    background-size: contain;
+}
+.address {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    
+}
+.address-1 {
+    width: 50%;
+    text-transform: capitalize;
+    color: white;
+    margin-left: 30px;
+}
+.address-2 {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.address-2 a {
+    color: white;
+    
+}
+
+
+
+
+/* product.html */
+.head-2 {
+    background-color: orange;
+}
+
+.pd-2 {
+    width:  100%;
+    margin-top: 150px;
+    position: absolute;
+}
+.tx-1 {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+    height: 200px;
+}
+
+.sp {
+    display: flex;
+} 
+.sp-1 {
+    width: 50%;
+    display: flex;
+    margin-left: 5%;
+    gap: 4rem;
+    justify-content: center;
+    
+    
+
+}
+.sp-1-a {
+    width: 35%;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
+    
+}
+.pd-img1 {
+    width: 90%;
+    background-image: url(./lordmoon13.jfif);
+    background-size: cover;
+    height: 250px;
+    border-radius: 20px;
+    transition: 0.1s linear;
+    
+}
+.pd-img1:hover {
+    width: 95%;
+    height: 270px;
+}
+.sp-1-a button {
+    width: 80px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: orange;
+    background-color: transparent;
+    transition: all 5ms linear;
+    margin-top: 10px;
+}
+.sp-1-a button:hover {
+    background-color: orange;
+    color: white;
+    width: 90px;
+    margin-top: 5px;
+}
+
+
+.sp-1-b button {
+    width: 80px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: orange;
+    background-color: transparent;
+    transition: all 5ms linear;
+    margin-top: 10px;
+}
+.sp-1-b button:hover {
+    background-color: orange;
+    color: white;
+    width: 90px;
+    margin-top: 5px;
+}
+
+
+.sp-1-b {
+    width: 35%;
+    height: 350px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
+}
+.pd-img2 {
+    width: 90%;
+    background-image: url(./lordmoon11.jfif);
+    height: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.1s linear;
+}
+.pd-img2:hover {
+    width: 95%;
+    height: 270px;
+}
+
+
+.sp-2 {
+    width: 50%;
+    display: flex;
+    gap: 4rem;
+}
+.sp-2-a {
+    width: 35%;
+    height: 350px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
+
+}
+.pd-img3 {
+    background-image: url(./IMG_4867.JPG);
+    width: 90%;
+    height: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.1s linear;
+}
+.pd-img3:hover {
+    width: 95%;
+    height: 270px;
+}
+.sp-2-a button {
+    width: 80px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: orange;
+    background-color: transparent;
+    transition: all 5ms linear;
+    margin-top: 10px;
+}
+.sp-2-a button:hover {
+    background-color: orange;
+    color: white;
+    width: 90px;
+    margin-top: 5px;
+}
+.sp-2-b {
+    width: 35%;
+    height: 350px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
+    
+}
+.pd-img4 {
+    background-image: url(./IMG_4868.JPG);
+    width: 90%;
+    height: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.1s linear;
+}
+.pd-img4:hover {
+    width: 95%;
+    height: 270px;
+}
+.sp-2-b button {
+    width: 80px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: orange;
+    background-color: transparent;
+    transition: all 5ms linear;
+    margin-top: 10px;
+}
+.sp-2-b button:hover {
+    background-color: orange;
+    color: white;
+    width: 90px;
+    margin-top: 5px;
+}
+.inverter {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.tx-2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+    height: 200px;
+}
+.t-iv {
+    display: flex;
+    flex-direction: row;
+}
+.iv-1 {
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    width: 50%;
+}
+.iv-1-a {
+    width: 35%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 72px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
+}
+.iv-1-a button {
+    width: 80px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: orange;
+    background-color: transparent;
+    transition: all 5ms linear;
+    margin-top: 10px
+}
+.iv-1-a button:hover {
+    background-color: orange;
+    color: white;
+    width: 90px;
+    margin-top: 5px;
+}
+
+.pd-img5 {
+    background-image: url(./lordmoon3.jfif);
+    width: 90%;
+    height: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.1s linear;
+
+}
+.pd-img5:hover {
+    width: 95%;
+    height: 270px;
+} 
+.iv-1-b {
+    width: 35%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 72px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
+}
+.pd-img6 {
+    background-image: url(./lordmoon1.jfif);
+    width: 90%;
+    height: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.1s linear;
+
+}
+.pd-img6:hover {
+    width: 95%;
+    height: 270px;
+}
+.iv-1-b button {
+    width: 80px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: orange;
+    background-color: transparent;
+    transition: all 5ms linear;
+    margin-top: 10px
+}
+.iv-1-b button:hover {
+    background-color: orange;
+    color: white;
+    width: 90px;
+    margin-top: 5px;
+}
+.iv-2 {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.iv-2-a {
+    width: 35%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
+}
+.iv-2-a button {
+    width: 80px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: orange;
+    background-color: transparent;
+    transition: all 5ms linear;
+    margin-top: 10px
+}
+.iv-2-a button:hover {
+    background-color: orange;
+    color: white;
+    width: 90px;
+    margin-top: 5px;
+}
+.pd-img7 {
+    background-image: url(./lordmoon4.jfif);
+    width: 90%;
+    height: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.1s linear;
+}
+.pd-img7:hover {
+    width: 95%;
+    height: 270px;
+}
+.iv-2-b {
+    width: 35%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 72px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
+}
+.pd-img8 {
+    background-image: url(./lordmoon2.jfif);
+    width: 90%;
+    height: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.1s linear;
+}
+.pd-img8:hover {
+    width: 95%;
+    height: 270px;
+}
+.iv-2-b button {
+    width: 80px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: orange;
+    background-color: transparent;
+    transition: all 5ms linear;
+    margin-top: 10px
+}
+.iv-2-b button:hover {
+    background-color: orange;
+    color: white;
+    width: 90px;
+    margin-top: 5px;
+}
+.battery {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.tx-3 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+    
+}
+.t-bt {
+    display: flex;
+    flex-direction: row;
+}
+.bt-1 {
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    width: 50%;
+}
+.bt-1-a {
+    width: 35%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 72px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
+}
+.pd-img9 {
+    background-image: url(./lordmoon8.jfif);
+    width: 90%;
+    height: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.1s linear;
+}
+.pd-img9:hover {
+    width: 95%;
+    height: 270px;
+}
+.bt-1-a button {
+    width: 80px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: orange;
+    background-color: transparent;
+    transition: all 5ms linear;
+    margin-top: 10px
+}
+.bt-1-a button:hover {
+    background-color: orange;
+    color: white;
+    width: 90px;
+    margin-top: 5px;
+}
+.bt-1-b {
+    width: 35%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 72px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
+}
+.pd-img10 {
+    background-image: url(./lordmoon5.jfif);
+    width: 90%;
+    height: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.1s linear;
+}
+.pd-img10:hover {
+    width: 95%;
+    height: 270px;
+}
+.bt-1-b button {
+    width: 80px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: orange;
+    background-color: transparent;
+    transition: all 5ms linear;
+    margin-top: 10px
+}
+.bt-1-b button:hover {
+    background-color: orange;
+    color: white;
+    width: 90px;
+    margin-top: 5px;
+}
+.bt-2 {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.bt-2-a {
+    width: 35%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
+}
+.pd-img11 {
+    background-image: url(./lordmoon9.jfif);
+    width: 90%;
+    height: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.1s linear;
+}
+.pd-img11:hover {
+    width: 95%;
+    height: 270px;
+}
+.bt-2-a button {
+    width: 80px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: orange;
+    background-color: transparent;
+    transition: all 5ms linear;
+    margin-top: 10px
+}
+.bt-2-a button:hover {
+    background-color: orange;
+    color: white;
+    width: 90px;
+    margin-top: 5px;
+}
+.bt-2-b {
+    width: 35%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 72px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
+}
+.pd-img12 {
+    background-image: url(./lordmoon18.jfif);
+    width: 90%;
+    height: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.1s linear;
+}
+.pd-img12:hover {
+    width: 95%;
+    height: 270px;
+}
+.bt-2-b button {
+    width: 80px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: orange;
+    background-color: transparent;
+    transition: all 5ms linear;
+    margin-top: 10px
+}
+.bt-2-b button:hover {
+    background-color: orange;
+    color: white;
+    width: 90px;
+    margin-top: 5px;
+}
+.tx-4 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.t-sl {
+    display: flex;
+    flex-direction: row;
+}
+.sl-1 {
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    width: 50%;
+}
+.sl-1-a {
+    width: 35%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 72px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
+}
+.pd-img13 {
+    background-image: url(./lordmoon14.jfif);
+    width: 90%;
+    height: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.1s linear;
+}
+.pd-img13:hover {
+    width: 95%;
+    height: 270px;
+}
+.sl-1-a button {
+    width: 80px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: orange;
+    background-color: transparent;
+    transition: all 5ms linear;
+    margin-top: 10px
+}
+.sl-1-a button:hover {
+    background-color: orange;
+    color: white;
+    width: 90px;
+    margin-top: 5px;
+}
+.sl-1-b {
+    width: 35%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 72px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
+}
+.pd-img14 {
+    background-image: url(./IMG_4865.PNG);
+    width: 90%;
+    height: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.1s linear;
+}
+.pd-img14:hover {
+    width: 95%;
+    height: 270px;
+}
+.sl-1-b button {
+    width: 80px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: orange;
+    background-color: transparent;
+    transition: all 5ms linear;
+    margin-top: 10px
+}
+.sl-1-b button:hover {
+    background-color: orange;
+    color: white;
+    width: 90px;
+    margin-top: 5px;
+}
+.sl-2 {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.sl-2-a {
+    width: 35%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
+}
+.pd-img15 {
+    background-image: url(./IMG_4864.JPG);
+    width: 90%;
+    height: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.1s linear;
+}
+.pd-img15:hover {
+    width: 95%;
+    height: 270px;
+}
+.sl-2-a button {
+    width: 80px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: orange;
+    background-color: transparent;
+    transition: all 5ms linear;
+    margin-top: 10px
+}
+.sl-2-a button:hover {
+    background-color: orange;
+    color: white;
+    width: 90px;
+    margin-top: 5px;
+}
+.sl-2-b {
+    width: 35%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 72px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.4)
+}
+.pd-img16 {
+    background-image: url(./lordmoon17.jfif);
+    width: 90%;
+    height: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.1s linear;
+}
+.pd-img16:hover {
+    width: 95%;
+    height: 270px;
+}
+.sl-2-b button {
+    width: 80px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    color: orange;
+    background-color: transparent;
+    transition: all 5ms linear;
+    margin-top: 10px
+}
+.sl-2-b button:hover {
+    background-color: orange;
+    color: white;
+    width: 90px;
+    margin-top: 5px;
+}
+.last {
+    width: 100%;
+    height: auto;
+    background-color: #2A2929;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: white;
+    background-image: url(./redo.png);
+    background-size: 200px;
+
+
+}
+.last span {
+    color: orange;
+}
+.other li{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.other a {
+    color: white;
+    
+}
+.other a:hover {
+    color: orange;
+}
+.description {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+
+
+        
+
+/* all media queries */
+
+
+  @media screen and (max-width: 1400px) {
+    .properties {
+        gap: 4rem;
+    }
+    .tracks {
+        gap: 6rem;
+    }
+    .products {
+        gap: 6rem;
+    }
+    .tx-1 {
+        height: 100px;
+    }
+    
+    .sp-1 {
+        width: 50%;
+        gap: 1rem;
+        justify-content: center;
+        margin: 0;
+    }
+    .sp-1-a {
+        width: 45%;
+    }
+    .sp-1-b {
+        width: 45%;
+    }
+    .sp-2 {
+        width: 50%;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .sp-2-a {
+        width: 45%;
+    }
+    .sp-2-b {
+        width: 45%;
+    }
+    .tx-2 {
+        height: 100px;
+    }
+    
+    .iv-1 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .iv-1-a {
+        margin: 0;
+        width: 45%;
+    }
+    .iv-1-b {
+        margin: 0;
+        width: 45%;
+    }
+    .iv-2 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .iv-2-a {
+        margin: 0;
+        width: 45%;
+    }
+    .iv-2-b {
+        margin: 0;
+        width: 45%;
+    }
+    .tx-3 {
+        height: 100px;
+    }
+    
+    .bt-1 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .bt-1-a {
+        margin: 0;
+        width: 45%;
+    }
+    .bt-1-b {
+        margin: 0;
+        width: 45%;
+    }
+    .bt-2 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .bt-2-a {
+        margin: 0;
+        width: 45%;
+    }
+    .bt-2-b {
+        margin: 0;
+        width: 45%;
+    }
+    .tx-4 {
+        height: 100px;
+    }
+    
+    .sl-1 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .sl-1-a {
+        margin: 0;
+        width: 45%;
+    }
+    .sl-1-b {
+        margin: 0;
+        width: 45%;
+    }
+    .sl-2 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .sl-2-a {
+        margin: 0;
+        width: 45%;
+    }
+    .sl-2-b {
+        margin: 0;
+        width: 45%;
+    }
+    .last {
+        flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .head {
+        width: 100%;
+
+    }
+    .properties {
+        gap: 4rem;
+        font-size: 15px;
+    }
+    .front-image {
+        height: 600px;
+    }
+    .write {
+        text-align: center;
+    }
+    .tracks {
+        gap: 6rem;
+    }
+    .products {
+        gap: 6rem;
+    }
+    .image {
+        display: none;
+    }
+    .tx-1 {
+        height: 100px;
+    }
+    
+    .sp-1 {
+        width: 50%;
+        gap: 1rem;
+        justify-content: center;
+        margin: 0;
+    }
+    .sp-1-a {
+        width: 45%;
+    }
+    .sp-1-b {
+        width: 45%;
+    }
+    .sp-2 {
+        width: 50%;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .sp-2-a {
+        width: 45%;
+    }
+    .sp-2-b {
+        width: 45%;
+    }
+    .tx-2 {
+        height: 100px;
+    }
+    
+    .iv-1 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .iv-1-a {
+        margin: 0;
+        width: 45%;
+    }
+    .iv-1-b {
+        margin: 0;
+        width: 45%;
+    }
+    .iv-2 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .iv-2-a {
+        margin: 0;
+        width: 45%;
+    }
+    .iv-2-b {
+        margin: 0;
+        width: 45%;
+    }
+    .tx-3 {
+        height: 100px;
+    }
+    
+    .bt-1 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .bt-1-a {
+        margin: 0;
+        width: 45%;
+    }
+    .bt-1-b {
+        margin: 0;
+        width: 45%;
+    }
+    .bt-2 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .bt-2-a {
+        margin: 0;
+        width: 45%;
+    }
+    .bt-2-b {
+        margin: 0;
+        width: 45%;
+    }
+    .tx-4 {
+        height: 100px;
+    }
+    
+    .sl-1 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .sl-1-a {
+        margin: 0;
+        width: 45%;
+    }
+    .sl-1-b {
+        margin: 0;
+        width: 45%;
+    }
+    .sl-2 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .sl-2-a {
+        margin: 0;
+        width: 45%;
+    }
+    .sl-2-b {
+        margin: 0;
+        width: 45%;
+    }
+    .last {
+        flex-direction: column;
+    }
+  }  
+
+  @media screen and (max-width: 908px) {
+    .properties {
+        gap: 2rem;
+        font-size: 15px;
+    }
+    .tracks {
+        gap: 4rem;
+    }
+    .products {
+        gap: 4rem;
+    }
+    .contact {
+        height: auto;
+    }
+    .tx-1 {
+        height: 100px;
+    }
+    
+    .sp-1 {
+        width: 50%;
+        gap: 1rem;
+        justify-content: center;
+        margin: 0;
+    }
+    .sp-1-a {
+        width: 45%;
+    }
+    .sp-1-b {
+        width: 45%;
+    }
+    .sp-2 {
+        width: 50%;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .sp-2-a {
+        width: 45%;
+    }
+    .sp-2-b {
+        width: 45%;
+    }
+    .tx-2 {
+        height: 100px;
+    }
+    
+    .iv-1 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .iv-1-a {
+        margin: 0;
+        width: 45%;
+    }
+    .iv-1-b {
+        margin: 0;
+        width: 45%;
+    }
+    .iv-2 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .iv-2-a {
+        margin: 0;
+        width: 45%;
+    }
+    .iv-2-b {
+        margin: 0;
+        width: 45%;
+    }
+    .tx-3 {
+        height: 100px;
+    }
+    
+    .bt-1 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .bt-1-a {
+        margin: 0;
+        width: 45%;
+    }
+    .bt-1-b {
+        margin: 0;
+        width: 45%;
+    }
+    .bt-2 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .bt-2-a {
+        margin: 0;
+        width: 45%;
+    }
+    .bt-2-b {
+        margin: 0;
+        width: 45%;
+    }
+    .tx-4 {
+        height: 100px;
+    }
+    
+    .sl-1 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .sl-1-a {
+        margin: 0;
+        width: 45%;
+    }
+    .sl-1-b {
+        margin: 0;
+        width: 45%;
+    }
+    .sl-2 {
+        margin: 0;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .sl-2-a {
+        margin: 0;
+        width: 45%;
+    }
+    .sl-2-b {
+        margin: 0;
+        width: 45%;
+    }
+    .last {
+        flex-direction: column;
+    }
+  }          
+
+@media screen and (max-width: 768px) {
+    .head {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 130px;
+        
+        
+    } 
+    .properties {
+        display: none;
+    }
+    .test-icons {
+        width: 100%;
+    }
+     .list {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        font-size: 50px;
+        margin-right: 50px;
+     }
+     .menu {
+        width: 50%;
+        height: 100vh;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0.9;
+        font-size: 35px;
+        display: none;
+        text-transform: capitalize;
+        align-items: center;
+        
+     }
+     .menu-text {
+        position: absolute;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        opacity: 1;
+        
+    } 
+    .menu-text :nth-child(1):hover {
+        color: orange;
+    }
+    .menu-text :nth-child(2):hover {
+        color: orange;
+    }.menu-text :nth-child(3):hover {
+        color: orange;
+    }.menu-text :nth-child(4):hover {
+        color: orange;
+    }
+     .close {
+        display: none;
+        font-size: 40px;
+        color: white;
+        margin-left: 78%;
+     }
+    .logo {
+        background-size: contain;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+        margin-left: 50px;
+    }
+    .front-image {
+        width: 100%;
+        height: 400px;
+        background-size: cover;
+        text-align: center;
+        justify-content:center;                 
+        
+    }
+    .about {
+        font-size: 15px ;
+        line-height: 3rem;
+        margin-top: 100px;
+    }
+    .note {
+        font-size: 20px;
+    }
+    .test-icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .tracks {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .products {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .image {
+        display: none;
+    }
+    .text {
+        align-items: center;
+        justify-content: center;
+    }
+    .address-1 {
+        gap: 0;
+        width: 70%;
+    }
+    .address-2 {
+        gap: 2rem;
+        width: 10%;
+        flex-direction: column;
+    }
+    
+    .contact {
+        height: auto;
+        background-size: cover;
+    }
+    .section-5 {
+        height: auto;
+    }
+    .tx-1 {
+        height: 100px;
+    }
+    .sp {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .sp-1 {
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+        gap: 1rem;
+    } 
+    
+    .sp-2 {
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .tx-2 {
+        height: 100px;
+    }
+    .t-iv {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .iv-1 {
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+    }
+    .iv-1-a {
+        margin: 0;
+    }
+    .iv-2 {
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+    }
+    .tx-3 {
+        height: 100px;
+    }
+    .t-bt {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .bt-1 {
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+    }
+    .bt-1-a {
+        margin: 0;
+    }
+    .bt-2 {
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+    }
+    .tx-4 {
+        height: 100px;
+    }
+    .t-sl {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .sl-1 {
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+    }
+    .sl-1-a {
+        margin: 0;
+    }
+    .sl-2 {
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+    }
+    .last {
+        font-size: 20px;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .head {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 130px;
+        
+        
+    } 
+    .properties {
+        display: none;
+    }
+    .test-icons {
+        width: 100%;
+    }
+     .list {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        font-size: 50px;
+        margin-right: 50px;
+     }
+     .menu {
+        width: 50%;
+        height: 100vh;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0.9;
+        padding: 100px 10px;
+        font-size: 35px;
+        display: none;
+        text-transform: capitalize;
+        align-items: center;
+        
+     }
+     .menu-text {
+        position: absolute;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        opacity: 1;
+        
+    } 
+    .menu-text :nth-child(1):hover {
+        color: orange;
+    }
+    .menu-text :nth-child(2):hover {
+        color: orange;
+    }.menu-text :nth-child(3):hover {
+        color: orange;
+    }.menu-text :nth-child(4):hover {
+        color: orange;
+    }
+     .close {
+        display: none;
+        font-size: 40px;
+        color: white;
+        margin-left: 78%;
+     }
+    .logo {
+        background-size: contain;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+        margin-left: 50px;
+    }
+    .front-image {
+        width: 100%;
+        height: 400px;
+        background-size: cover;
+        text-align: center;
+        justify-content:center;                 
+        
+    }
+    .about {
+        font-size: 15px ;
+        line-height: 3rem;
+        margin-top: 100px;
+    }
+    .note {
+        font-size: 20px;
+    }
+    .test-icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .tracks {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .products {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .image {
+        display: none;
+    }
+    .text {
+        align-items: center;
+        justify-content: center;
+    }
+    .address-1 {
+        gap: 0;
+        width: 70%;
+    }
+    .address-2 {
+        gap: 2rem;
+        width: 10%;
+        flex-direction: column;
+    }
+    
+    .contact {
+        height: auto;
+        background-size: cover;
+    }
+    .section-5 {
+        height: auto;
+    }
+    .tx-1 {
+        height: 100px;
+    }
+    .sp {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .sp-1 {
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+        gap: 1rem;
+    } 
+    
+    .sp-2 {
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .tx-2 {
+        height: 100px;
+    }
+    .t-iv {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .iv-1 {
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+    }
+    .iv-1-a {
+        margin: 0;
+    }
+    .iv-2 {
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+    }
+    .tx-3 {
+        height: 100px;
+    }
+    .t-bt {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .bt-1 {
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+    }
+    .bt-1-a {
+        margin: 0;
+    }
+    .bt-2 {
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+    }
+    .tx-4 {
+        height: 100px;
+    }
+    .t-sl {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .sl-1 {
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+    }
+    .sl-1-a {
+        margin: 0;
+    }
+    .sl-2 {
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+    }
+    .last {
+        font-size: 20px;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 450px) {
+  .head {
+    height: 110px;
+    align-items: center;
+    
+  }
+  .logo {
+    background-size: contain;
+    width: 40%;
+    margin-left: 15px;
+  }
+  .list {
+    font-size: 30px;
+    margin-bottom:  15px;
+    margin-right: 15px;
+  }
+.about {
+    font-size: 15px;
+    padding: 0px 10px;
+    font-size: 10px;
+}
+
+  
+  .section-2 {
+    font-size: 15px;
+    padding: 0;
+  }
+  .note {
+    font-size: 15px;
+  }
+  .write {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .title h1 {
+    font-size: 30px;
+  }
+  
+  .text h1 {
+    font-size: 15px;
+  }
+  .text  {
+    font-size: 25px;
+    gap: 0;
+  }
+  .class {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .address {
+    font-size: 12px;
+  }
+  .address-1 {
+    width: 80%;
+    justify-content: center;
+    gap: 0;
+    margin-left: 15px;
+  }
+  .address-2 {
+    width: 10%;
+    font-size: 15px;
+    gap: 1rem;
+    flex-direction: column;
+}
+.menu {
+    font-size: 20px;
+    width: 50%;
+}
+.close {
+    font-size: 25px;
+}
+.list {
+    display: flex;
+}
+.solar-pannel {
+    flex-direction: column;
+}
+.tx-1 {
+    font-size: 30px;
+    height: 100px;
+}
+.sp {
+    flex-direction: column;
+    gap: 3rem;
+}
+.sp-1 {
+    margin: 0;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sp-1-a {
+    width: 90%;
+}
+.sp-1-b {
+    width: 90%;
+    
+}
+.sp-2 {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.sp-2-a {
+    width: 90%;
+}
+.sp-2-b {
+    width: 90%;
+}
+.tx-2 {
+    height: 100px;
+    font-size: 30px;
+}
+.t-iv {
+    flex-direction: column;
+    gap: 3rem;
+}
+.iv-1 {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    gap: 3rem;
+}
+.iv-1-a {
+    flex-direction: column;
+    margin: 0;
+    width: 90%;
+}
+.iv-1-b {
+    flex-direction: column;
+    margin: 0;
+    width: 90%;
+}
+.iv-2 {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.iv-2-a {
+    margin: 0;
+    width: 90%;
+}
+.iv-2-b {
+    margin: 0;
+    width: 90%;
+}
+
+.tx-3 {
+    font-size: 30px;
+    height: 100px;
+}
+.t-bt {
+    flex-direction: column;
+    gap: 3rem;
+}
+.bt-1 {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    gap: 3rem;
+}
+.bt-1-a {
+    flex-direction: column;
+    margin: 0;
+    width: 90%;
+}
+.bt-1-b {
+    flex-direction: column;
+    margin: 0;
+    width: 90%;
+}
+.bt-2 {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    gap: 3rem;
+}
+.bt-2-a {
+    flex-direction: column;
+    margin: 0;
+    width: 90%;
+}
+.bt-2-b {
+    flex-direction: column;
+    margin: 0;
+    width: 90%;
+}
+
+.tx-4 {
+    font-size: 30px;
+    height: 100px;
+}
+.t-sl {
+    flex-direction: column;
+    gap: 3rem;
+}
+.sl-1 {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    gap: 3rem;
+}
+.sl-1-a {
+    flex-direction: column;
+    margin: 0;
+    width: 90%;
+}
+.sl-1-b {
+    flex-direction: column;
+    margin: 0;
+    width: 90%;
+}
+.sl-2 {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    gap: 3rem;
+}
+.sl-2-a {
+    flex-direction: column;
+    margin: 0;
+    width: 90%;
+}
+.sl-2-b {
+    flex-direction: column;
+    margin: 0;
+    width: 90%;
+}
+.last {
+    text-align: center;
+    flex-direction: column;
+    font-size: 15px;
+    height: auto;
+    margin-top: 30px;
+}
+
+}
+
